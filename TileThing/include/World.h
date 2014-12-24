@@ -3,6 +3,7 @@
 #include "AIE.h"
 #include <vector>
 #include <string>
+#include <assert.h>
 #include <iostream>
 
 using namespace std;
@@ -37,8 +38,8 @@ public:
 	void WriteToConsole();
 
 private:
-	vector<vector<TileType>>WorldTiles;//2d vector
-	vector<TileData>TileInfo;
+	vector<vector<TileType>>worldTiles;//2d vector
+	vector<TileData>tileInfo;
 
 };
 
